@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-1">
+          <a href="https://weather.com/weather/today/l/35.72,51.33?par=google"
+            ><h4>Tehran</h4></a
+          >
+        </div>
+        <div class="col-sm-1">
+          <a href="https://weather.com/weather/today/l/38.72,-9.14?par=google"
+            ><h4>Lisbon</h4>
+          </a>
+        </div>
+        <div class="col-sm-1">
+          <a
+            href="https://weather.com/weather/today/l/02144e9a9a2fe048b3ecca9df91501293f98ee712846f78a5da25ba6690fd98c"
+            ><h4>Paris</h4>
+          </a>
+        </div>
+        <div class="col-sm-1">
+          <a
+            href="https://weather.com/weather/today/l/b8de2561f2dd9e07cc229e26a7f667d330f6cd4288f7e4b1d06b78a47817b110"
+            ><h4>Berlin</h4>
+          </a>
+        </div>
+      </div>
+
+      <form action="">
+        <input
+          class="search"
+          placeholder="Enter a city"
+          id="city-input"
+          type="search"
+        />
+      </form>
+
+      <div class="row">
+        <div class="col-sm-1">
+          <img
+            class="img-fluid"
+            src="../home work 2-2/images/sunny.png"
+            alt="few clouds"
+          />
+        </div>
+        <div class="col-sm-5 current-weather-info">
+          <h1>Tehran</h1>
+          <ul>
+            <li>15:54, Sun Jun 10</li>
+            <li>few clouds</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-2">
+          <h1>31°C</h1>
+
+          <ul>
+            <li>Humidity: 14%</li>
+            <li>Wind: 7km/h</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="decoration" />
+
+      <div class="weather-forcast">
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="forcast-wrapper">
+              <div class="weather-forcast">Sat</div>
+              <img
+                class="forecast-weather-icon"
+                src="../home work 2-2/images/sunny.png"
+                alt="forcast weather icon"
+              />
+              <div class="weather-forcast">
+                <span>31</span>
+                <span>23</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forcast-wrapper">
+              <div class="weather-forcast">Sun</div>
+              <img
+                class="forecast-weather-icon"
+                src="../home work 2-2/images/cloudy-day.png"
+                alt="forcast weather icon"
+              />
+              <div class="weather-forcast">
+                <span>32</span>
+                <span>26</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forcast-wrapper">
+              <div class="weather-forcast">Mon</div>
+              <img
+                class="forecast-weather-icon"
+                src="../home work 2-2/images/thunderstorm.png"
+                alt="forcast weather icon"
+              />
+              <div class="weather-forcast">
+                <span>34</span>
+                <span>25</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forcast-wrapper">
+              <div class="weather-forcast">Tue</div>
+              <img
+                class="forecast-weather-icon"
+                src="../home work 2-2/images/thunderstorm.png"
+                alt="forcast weather icon"
+              />
+              <div class="weather-forcast">
+                <span>35</span>
+                <span>26</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forcast-wrapper">
+              <div class="weather-forcast">Wed</div>
+              <img
+                class="forecast-weather-icon"
+                src="../home work 2-2/images/thunderstorm.png"
+                alt="forcast weather icon"
+              />
+              <div class="weather-forcast">
+                <span>37</span>
+                <span>29</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forcast-wrapper">
+              <div class="weather-forcast">Thr</div>
+              <img
+                class="forecast-weather-icon"
+                src="../home work 2-2/images/thunderstorm.png"
+                alt="forcast weather icon"
+              />
+              <div class="weather-forcast">
+                <span>35</span>
+                <span>30</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <footer class="footer-note">Code by Mina Jeybar</footer>
+    <!-- </div> -->
+    
+  </body>
+</html>
